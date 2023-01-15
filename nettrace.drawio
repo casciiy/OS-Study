@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-15T05:36:34.579Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="5ohjU1Ns50XQ_fgxo0vA" version="20.8.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-15T05:41:01.301Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="7UOWhNlEyEsIHvrigSd9" version="20.8.5" type="github">
   <diagram id="J2MnjOrFb4amIE_kZ2wo" name="第 1 页">
     <mxGraphModel dx="925" dy="2213" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -233,14 +233,35 @@
         <mxCell id="9_sRllinG_6qHr1Zlxdy-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="d07pl93fS8qno-X2YD1w-57" target="WR6IVmyZv5QHbgeaVstu-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.407;entryY=-0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="2yT9sIAA3iNZwG6eFa9Z-1" target="2yT9sIAA3iNZwG6eFa9Z-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2yT9sIAA3iNZwG6eFa9Z-1" target="2yT9sIAA3iNZwG6eFa9Z-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2yT9sIAA3iNZwG6eFa9Z-1" target="2yT9sIAA3iNZwG6eFa9Z-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="2yT9sIAA3iNZwG6eFa9Z-1" value="_DEFINE_PROBE(KPROBE_DEFAULT, TP_DEFAULT, FNC)" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="100" y="1150" width="370" height="40" as="geometry" />
         </mxCell>
         <mxCell id="2yT9sIAA3iNZwG6eFa9Z-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="2yT9sIAA3iNZwG6eFa9Z-2" target="2yT9sIAA3iNZwG6eFa9Z-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-2" value="&lt;div&gt;#define _DEFINE_PROBE(FN, FN_tp, FNC)		\&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FN(dev_gro_receive, 2)&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;\&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FN(enqueue_to_backlog, 1)&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;\&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1030" width="290" height="70" as="geometry" />
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-2" value="&lt;div&gt;#define _DEFINE_PROBE(FN, FN_tp, FNC)		\&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FN(dev_gro_receive, 2)&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;\&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;FN(enqueue_to_backlog, 1)&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;\&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;...&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1050" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-4" value="KPROBE_DEFAULT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-5" value="TP_DEFAULT" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="225" y="1230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-6" value="FNC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="1230" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2yT9sIAA3iNZwG6eFa9Z-10" value="&lt;div&gt;#define FNC(name)		extern trace_t trace_##name;&lt;/div&gt;&lt;div&gt;#define FN(name, index)&lt;span style=&quot;&quot;&gt;		&lt;/span&gt;FNC(name)&lt;/div&gt;&lt;div&gt;#define FN_tp(name, a1, a2, a3) FNC(name)&lt;/div&gt;&lt;div&gt;_DEFINE_PROBE(FN, FN_tp, FNC)&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1130" width="280" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
